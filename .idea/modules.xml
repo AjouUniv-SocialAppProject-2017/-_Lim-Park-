@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/nusobo.iml" filepath="$PROJECT_DIR$/nusobo.iml" />
+=======
+>>>>>>> abf48a1edc79beaaf7a8545f017e00e36637876e
       <module fileurl="file://$PROJECT_DIR$/nusobo.iml" filepath="$PROJECT_DIR$/nusobo.iml" />
     </modules>
   </component>

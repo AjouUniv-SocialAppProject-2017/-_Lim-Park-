@@ -1,5 +1,6 @@
 package com.example.taewoonglim.nusobo;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -18,6 +19,12 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseUser;
 
 import static com.example.taewoonglim.nusobo.LoginActivity.mAuth;
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+>>>>>>> abf48a1edc79beaaf7a8545f017e00e36637876e
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -25,11 +32,14 @@ public class RegisterActivity extends AppCompatActivity {
     private ArrayAdapter adapter;
     private Spinner spinner;
 
+<<<<<<< HEAD
     private EditText emailText;
     private EditText emailPassword;
 
 
 
+=======
+>>>>>>> abf48a1edc79beaaf7a8545f017e00e36637876e
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +48,7 @@ public class RegisterActivity extends AppCompatActivity {
         spinner = (Spinner)findViewById(R.id.majorSpinner);
         adapter = ArrayAdapter.createFromResource(this, R.array.major, R.layout.support_simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
+<<<<<<< HEAD
 
 
         emailText = (EditText)findViewById(R.id.emailText);
@@ -89,3 +100,7 @@ public class RegisterActivity extends AppCompatActivity {
 }
 
 
+=======
+    }
+}
+>>>>>>> abf48a1edc79beaaf7a8545f017e00e36637876e

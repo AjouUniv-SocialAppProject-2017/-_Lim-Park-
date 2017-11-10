@@ -30,7 +30,11 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
     private static final int RC_SIGN_IN = 10;
     private GoogleApiClient mGoogleApiClient;
+<<<<<<< HEAD
     public static FirebaseAuth mAuth;
+=======
+    private FirebaseAuth mAuth;
+>>>>>>> abf48a1edc79beaaf7a8545f017e00e36637876e
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
